@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title> FORM </title>
+
+<body bgcolor=" red">
+<h1 align="center">PRODUCT ENQUIRY FORM</h1>
+
+<form>
+<table  border ="5"   bgcolor="white" align="center" cellpadding="10" cellspacing="5" style="width:60%" >
+<tr><td>
+ <b>NAME:</b></td>
+<td><input type="text" pattern="[a-z,A-Z]{*}" required></td>
+
+<tr><td>
+<b>DATE OF BIRTH:</b></td>
+<td><input type="date" ></td>
+
+<tr><td>
+<b>GENDER:</b></td>
+<td><input type="radio" name="gender">
+Male
+<input type="radio" name="gender">
+Female</td>
+
+<tr><td>
+<b>EMAIL:<b></td>
+<td><input type="text" required></td>
+
+<tr><td>
+<b>MOBILE:</b></td>
+<td><input type="text" pattern="[0-9]{10}" required></td>
+
+<tr>
+<td> <b>DELIVERY ADDRESS :</b></td>
+<td><textarea rows="5" col="15" placeholder="Enter your address" required></textarea></td>
+</tr>
+
+
+<tr><td>
+<b>CITY:</b></td>
+<td><input type="text" ></td>
+
+<tr><td>
+<b>PINCODE:</b></td>
+<td><input type="text" pattern="[0-9]{6}" required></td>
+
+<tr><td>
+<b>PRODUCTS INTERESTED:</b></td>
+<td>
+<input type="checkbox" name="items">Groceries<br>
+<input type="checkbox" name="items">Electronic items<br>
+<input type="checkbox" name="items">Dresses<br>
+<input type="checkbox" name="items">footwears<br>
+<input type="checkbox" name="items">Stationary items<br>
+<input type="checkbox" name="items">others<br>
+</td>
+
+<tr><td>
+<b>PURCHASE MODE: </b></td>
+<td><input type="radio" name="mode">
+online
+<input type="radio" name="mode">
+offline</td>
+
+<tr><td>
+<b>EMI REQUIRED: </b>
+<td><input type="radio" name="EMI">
+Yes
+<input type="radio" name="EMI">
+No
+
+
+<tr><td>
+<input type="Submit" name="Submit" >
+<td>
+<input type="Reset" name="Reset">
+
+</table>
+</form>
+</body>
+</html>
