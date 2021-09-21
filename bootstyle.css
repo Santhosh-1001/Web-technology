@@ -1,0 +1,110 @@
+.bgimg
+{
+background-image: url("https://cdn.wallpapersafari.com/35/66/cKTSM6.jpg");
+background-size: cover;
+}
+.active
+{
+background-color: grey;
+border-radius: 10px;
+
+}
+
+.para{
+    color: white;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+}
+
+.para a:hover{
+    color: white;
+}
+
+
+.form{
+  width: 250px;
+  height:auto;
+  top: 75px;
+  left: 500px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+  position: relative;  
+  border-radius: 10px;
+  padding: 10px;
+}
+.form h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+  margin-top: 12px;
+}
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+   font-family: sans-serif;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.form:hover{
+  border: none;
+}
+::placeholder{
+  color: #fff;
+}
+
+.btn2 {
+  width: 240px;
+  height: 40px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.btn2 a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+.acc{
+  color: #fff;
+  font-size: 16px;
+    text-align: center;
+
+}
+.sin{
+  text-decoration: underline;
+  color: blue;
+  margin-left: 80px;
+}
+.sin:hover{
+  color: white;
+}
+.lin{
+
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial;
+}
+.lin a{
+  text-decoration: none;
+  color: #fff;
+}
+.lin a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
